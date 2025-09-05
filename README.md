@@ -1,5 +1,5 @@
-VWFS Microservices Project
-Descrição
+# VWFS Microservices Project
+## Descrição
 
 Este projeto implementa microserviços para gestão de clientes e propostas, utilizando .NET 9, MongoDB, PostgreSQL e Kafka. Possui monitoramento via Prometheus/Grafana e testes unitários com xUnit.
 
@@ -13,27 +13,18 @@ Além disso, o projeto depende de códigos compartilhados que ficam na pasta loc
 /Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks
 Esses códigos comuns foram publicados como pacote NuGet e utilizados pelos microserviços.
 
-Tecnologias utilizadas
+### Tecnologias utilizadas
 
-.NET 9
-
-C#
-
-MongoDB (Customer Service)
-
-PostgreSQL (Proposal Service)
-
-Kafka + Zookeeper (mensageria)
-
-Prometheus / Grafana (monitoramento)
-
-xUnit / Moq (testes unitários)
-
-Swagger (documentação de API)
-
-Serilog (logging)
-
-VWFS.BuildingBlocks (biblioteca compartilhada via NuGet)
+- .NET 9
+- C#
+- MongoDB (Customer Service)
+- PostgreSQL (Proposal Service)
+- Kafka + Zookeeper (mensageria)
+- Prometheus / Grafana (monitoramento)
+- xUnit / Moq (testes unitários)
+- Swagger (documentação de API)
+- Serilog (logging)
+- VWFS.BuildingBlocks (biblioteca compartilhada via NuGet)
 
 ```
 VWFS/
@@ -47,52 +38,45 @@ VWFS/
 └─ README.md
 ```
 
-Pré-requisitos
+### Pré-requisitos
 
 Docker e Docker Compose
-
 .NET 9 SDK
-
 Git
-
 Acesso ao NuGet com o pacote VWFS.BuildingBlocks
 
-Rodando o projeto
-Suba os serviços via Docker Compose:
+## Rodando o projeto
+
+### Suba os serviços via Docker Compose:
 docker-compose up --build
 
-Acesse:
+### Acesse:
 
 Customer Service: http://localhost:8080/swagger
-
 Grafana: http://localhost:3000 (usuário: admin / senha: admin)
-
 Prometheus: http://localhost:9090
 
-Testes
+## Testes
 
-Para executar os testes unitários:
+### Para executar os testes unitários:
+```
 cd VWFS.Customers.Tests
 dotnet test
+```
 
-Monitoramento
+## Monitoramento
 
-Métricas do .NET estão disponíveis em /metrics:
+### Métricas do .NET estão disponíveis em /metrics:
 
 Ex: http://localhost:8080/metrics para o Customer Service
-
 Prometheus coleta métricas de cada serviço configurado no prometheus.yml.
-
 Grafana exibe dashboards baseados nas métricas coletadas.
-
 k6 Para teste de carga (k6/load.js)
 
-Observações
+## Observações
 
 Validações de CPF e CNPJ são feitas na entidade Customer.
-
 Kafka deve estar ativo para que o Proposal Service consuma eventos.
-
 É recomendado subir os serviços na ordem: Zookeeper → Kafka → MongoDB/PostgreSQL → Customer/Proposal.
 
 A pasta VWFS.BuildingBlocks contém funcionalidades compartilhadas entre os projetos e é publicada como pacote NuGet.
