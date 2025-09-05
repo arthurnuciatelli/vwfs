@@ -48,13 +48,14 @@ Acesso ao NuGet com o pacote VWFS.BuildingBlocks
 ## Rodando o projeto
 
 ### Suba os serviços via Docker Compose:
+```
 docker-compose up --build
-
+```
 ### Acesse:
 
-Customer Service: http://localhost:8080/swagger
-Grafana: http://localhost:3000 (usuário: admin / senha: admin)
-Prometheus: http://localhost:9090
+- Customer Service: http://localhost:8080/swagger
+- Grafana: http://localhost:3000 (usuário: admin / senha: admin)
+- Prometheus: http://localhost:9090
 
 ## Testes
 
