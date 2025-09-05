@@ -35,6 +35,7 @@ Serilog (logging)
 
 VWFS.BuildingBlocks (biblioteca compartilhada via NuGet)
 
+```
 VWFS/
 ├─ VWFS.Customers/ # Serviço de clientes
 ├─ VWFS.Proposals/ # Serviço de propostas
@@ -44,6 +45,7 @@ VWFS/
 ├─ grafana/ # Configuração do Grafana
 ├─ shared/VWFS.BuildingBlocks # Códigos compartilhados (publicados no NuGet)
 └─ README.md
+```
 
 Pré-requisitos
 
