@@ -1,0 +1,12 @@
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/bin/Debug/net9.0/VWFS.Customer.Infrastructure.deps.json
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/bin/Debug/net9.0/VWFS.Customer.Infrastructure.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/bin/Debug/net9.0/VWFS.Customer.Infrastructure.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/obj/Debug/net9.0/VWFS.Customer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/obj/Debug/net9.0/VWFS.Customer.Infrastructure.AssemblyInfoInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/obj/Debug/net9.0/VWFS.Customer.Infrastructure.AssemblyInfo.cs
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/obj/Debug/net9.0/VWFS.Customer.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/obj/Debug/net9.0/VWFS.Customer.Infrastructure.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/obj/Debug/net9.0/refint/VWFS.Customer.Infrastructure.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/obj/Debug/net9.0/VWFS.Customer.Infrastructure.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/obj/Debug/net9.0/ref/VWFS.Customer.Infrastructure.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customer/VWFS.Customer.Infrastructure/obj/Debug/net9.0/VWFS.Customer.Infrastructure.csproj.AssemblyReference.cache

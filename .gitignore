@@ -1,0 +1,7 @@
+bin/
+obj/
+.vscode/
+*.user
+*.suo
+*.DS_Store
+docker-compose.override.yml

@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "RNq+yIFUxREjau+GaO8U1nE/Xx+NEGz+t/25WmDUrYs=",
+  "Source": "VWFS.Proposals.API",
+  "BasePath": "_content/VWFS.Proposals.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Infrastructure/VWFS.Proposals.Infrastructure.csproj",
+      "Version": 2,
+      "Source": "VWFS.Proposals.Infrastructure",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "VWFS.Customers.Domain/1.0.0": {
+        "dependencies": {
+          "VWFS.BuildingBlocks.Domain": "1.0.1"
+        },
+        "runtime": {
+          "VWFS.Customers.Domain.dll": {}
+        }
+      },
+      "VWFS.BuildingBlocks.Domain/1.0.1": {
+        "runtime": {
+          "lib/net9.0/VWFS.BuildingBlocks.Domain.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VWFS.Customers.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VWFS.BuildingBlocks.Domain/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NNB55QIySiLznN0F6OqMIaJ3+TK3HlxZ75uHv/5Ih4aFQnyOa4ivUNAZkZLehsiVrZwZx25EntnWbBix0o5aCA==",
+      "path": "vwfs.buildingblocks.domain/1.0.1",
+      "hashPath": "vwfs.buildingblocks.domain.1.0.1.nupkg.sha512"
+    }
+  }
+}

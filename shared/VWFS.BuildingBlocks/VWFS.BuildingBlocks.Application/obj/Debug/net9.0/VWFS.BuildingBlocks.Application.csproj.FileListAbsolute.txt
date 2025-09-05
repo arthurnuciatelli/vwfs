@@ -1,0 +1,12 @@
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/obj/Debug/net9.0/VWFS.BuildingBlocks.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/obj/Debug/net9.0/VWFS.BuildingBlocks.Application.AssemblyInfoInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/obj/Debug/net9.0/VWFS.BuildingBlocks.Application.AssemblyInfo.cs
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/obj/Debug/net9.0/VWFS.BuildingBlocks.Application.csproj.CoreCompileInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/bin/Debug/net9.0/VWFS.BuildingBlocks.Application.deps.json
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/bin/Debug/net9.0/VWFS.BuildingBlocks.Application.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/bin/Debug/net9.0/VWFS.BuildingBlocks.Application.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/obj/Debug/net9.0/VWFS.BuildingBlocks.Application.csproj.AssemblyReference.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/obj/Debug/net9.0/VWFS.BuildingBlocks.Application.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/obj/Debug/net9.0/refint/VWFS.BuildingBlocks.Application.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/obj/Debug/net9.0/VWFS.BuildingBlocks.Application.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Application/obj/Debug/net9.0/ref/VWFS.BuildingBlocks.Application.dll

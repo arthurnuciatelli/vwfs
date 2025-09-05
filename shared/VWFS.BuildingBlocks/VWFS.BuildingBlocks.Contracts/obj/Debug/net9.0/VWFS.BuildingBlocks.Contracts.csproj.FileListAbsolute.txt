@@ -1,0 +1,11 @@
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/bin/Debug/net9.0/VWFS.BuildingBlocks.Contracts.deps.json
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/bin/Debug/net9.0/VWFS.BuildingBlocks.Contracts.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/bin/Debug/net9.0/VWFS.BuildingBlocks.Contracts.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/obj/Debug/net9.0/VWFS.BuildingBlocks.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/obj/Debug/net9.0/VWFS.BuildingBlocks.Contracts.AssemblyInfoInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/obj/Debug/net9.0/VWFS.BuildingBlocks.Contracts.AssemblyInfo.cs
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/obj/Debug/net9.0/VWFS.BuildingBlocks.Contracts.csproj.CoreCompileInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/obj/Debug/net9.0/VWFS.BuildingBlocks.Contracts.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/obj/Debug/net9.0/refint/VWFS.BuildingBlocks.Contracts.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/obj/Debug/net9.0/VWFS.BuildingBlocks.Contracts.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/obj/Debug/net9.0/ref/VWFS.BuildingBlocks.Contracts.dll

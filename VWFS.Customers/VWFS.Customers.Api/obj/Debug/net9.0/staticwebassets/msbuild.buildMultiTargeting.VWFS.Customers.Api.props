@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/VWFS.Customers.Api.props" />
+</Project>

@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+      <TargetFramework>net9.0</TargetFramework>
+      <PackageId>VWFS.BuildingBlocks.Contracts</PackageId>
+      <Version>1.0.2</Version>
+      <Authors>Arthur Nuciatelli</Authors>
+      <Description>VWFS Contracts Layer</Description>
+  </PropertyGroup>
+
+</Project>

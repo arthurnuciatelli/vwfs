@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "N5h1mji7hLvtxcJz+EYooUgo6//of2iLKWQA8R8qatE=",
+  "Source": "VWFS.Customers.Api",
+  "BasePath": "_content/VWFS.Customers.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>VWFS.BuildingBlocks.Domain</id>
+    <version>1.0.0</version>
+    <authors>Arthur Nuciatelli</authors>
+    <description>VWFS Domain Layer</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/bin/Release/net9.0/VWFS.BuildingBlocks.Domain.dll" target="lib/net9.0/VWFS.BuildingBlocks.Domain.dll" />
+  </files>
+</package>

@@ -1,0 +1,7 @@
+{
+    "dotnet-test-explorer.testProjectPath": "**/*Tests.csproj",
+    "dotnet-test-explorer.testFramework": "xunit",
+    "dotnet-test-explorer.refreshOnSave": true,
+    "dotnet-test-explorer.showExplorer": true
+  }
+  

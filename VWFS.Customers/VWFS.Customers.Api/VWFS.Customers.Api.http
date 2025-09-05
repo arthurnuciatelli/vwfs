@@ -1,0 +1,6 @@
+@VWFS.Customer.Presentation_HostAddress = http://localhost:5228
+
+GET {{VWFS.Customer.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

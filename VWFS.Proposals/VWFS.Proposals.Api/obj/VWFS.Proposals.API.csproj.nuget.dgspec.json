@@ -1,0 +1,341 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.API/VWFS.Proposals.API.csproj": {}
+  },
+  "projects": {
+    "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.API/VWFS.Proposals.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.API/VWFS.Proposals.API.csproj",
+        "projectName": "VWFS.Proposals.API",
+        "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.API/VWFS.Proposals.API.csproj",
+        "packagesPath": "/Users/arthurnuciatelli/.nuget/packages/",
+        "outputPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurnuciatelli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ptbcp/_packaging/ptbcp/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Application/VWFS.Proposals.Application.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Application/VWFS.Proposals.Application.csproj"
+              },
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/VWFS.Proposals.Domain.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/VWFS.Proposals.Domain.csproj"
+              },
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Infrastructure/VWFS.Proposals.Infrastructure.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Infrastructure/VWFS.Proposals.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Application/VWFS.Proposals.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Application/VWFS.Proposals.Application.csproj",
+        "projectName": "VWFS.Proposals.Application",
+        "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Application/VWFS.Proposals.Application.csproj",
+        "packagesPath": "/Users/arthurnuciatelli/.nuget/packages/",
+        "outputPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurnuciatelli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ptbcp/_packaging/ptbcp/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/VWFS.Proposals.Domain.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/VWFS.Proposals.Domain.csproj"
+              },
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Infrastructure/VWFS.Proposals.Infrastructure.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Infrastructure/VWFS.Proposals.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "VWFS.BuildingBlocks.Domain": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/VWFS.Proposals.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/VWFS.Proposals.Domain.csproj",
+        "projectName": "VWFS.Proposals.Domain",
+        "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/VWFS.Proposals.Domain.csproj",
+        "packagesPath": "/Users/arthurnuciatelli/.nuget/packages/",
+        "outputPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurnuciatelli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ptbcp/_packaging/ptbcp/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "VWFS.BuildingBlocks.Contracts": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "VWFS.BuildingBlocks.Domain": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Infrastructure/VWFS.Proposals.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Infrastructure/VWFS.Proposals.Infrastructure.csproj",
+        "projectName": "VWFS.Proposals.Infrastructure",
+        "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Infrastructure/VWFS.Proposals.Infrastructure.csproj",
+        "packagesPath": "/Users/arthurnuciatelli/.nuget/packages/",
+        "outputPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurnuciatelli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ptbcp/_packaging/ptbcp/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/VWFS.Proposals.Domain.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/VWFS.Proposals.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "VWFS.BuildingBlocks.Domain": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

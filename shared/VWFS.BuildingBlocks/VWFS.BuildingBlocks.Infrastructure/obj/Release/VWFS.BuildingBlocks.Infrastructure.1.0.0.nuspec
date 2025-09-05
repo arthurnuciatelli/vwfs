@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>VWFS.BuildingBlocks.Infrastructure</id>
+    <version>1.0.0</version>
+    <authors>Arthur Nuciatelli</authors>
+    <description>VWFS Infrastructure Layer</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Confluent.Kafka" version="2.11.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.8" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="3.4.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/bin/Release/net9.0/VWFS.BuildingBlocks.Infrastructure.dll" target="lib/net9.0/VWFS.BuildingBlocks.Infrastructure.dll" />
+  </files>
+</package>

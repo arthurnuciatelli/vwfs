@@ -1,0 +1,12 @@
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/obj/Debug/net9.0/VWFS.BuildingBlocks.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/obj/Debug/net9.0/VWFS.BuildingBlocks.Infrastructure.AssemblyInfoInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/obj/Debug/net9.0/VWFS.BuildingBlocks.Infrastructure.AssemblyInfo.cs
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/obj/Debug/net9.0/VWFS.BuildingBlocks.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/obj/Debug/net9.0/VWFS.BuildingBlocks.Infrastructure.csproj.AssemblyReference.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/bin/Debug/net9.0/VWFS.BuildingBlocks.Infrastructure.deps.json
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/bin/Debug/net9.0/VWFS.BuildingBlocks.Infrastructure.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/bin/Debug/net9.0/VWFS.BuildingBlocks.Infrastructure.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/obj/Debug/net9.0/VWFS.BuildingBlocks.Infrastructure.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/obj/Debug/net9.0/refint/VWFS.BuildingBlocks.Infrastructure.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/obj/Debug/net9.0/VWFS.BuildingBlocks.Infrastructure.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Infrastructure/obj/Debug/net9.0/ref/VWFS.BuildingBlocks.Infrastructure.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/VWFS.Proposals.API.props" />
+</Project>

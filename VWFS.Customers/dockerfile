@@ -1,0 +1,24 @@
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /app
+
+# Copia os arquivos de projeto primeiro para restaurar dependências
+COPY VWFS.Customers.Api/*.csproj ./VWFS.Customers.Api/
+COPY VWFS.Customers.Domain/*.csproj ./VWFS.Customers.Domain/
+COPY VWFS.Customers.Infrastructure/*.csproj ./VWFS.Customers.Infrastructure/
+COPY VWFS.Customers.Application/*.csproj ./VWFS.Customers.Application/
+
+# Restaurar dependências
+RUN dotnet restore ./VWFS.Customers.Api/VWFS.Customers.Api.csproj
+
+# Copiar o resto do código
+COPY . .
+
+# Publicar
+RUN dotnet publish ./VWFS.Customers.Api/VWFS.Customers.Api.csproj -c Release -o out
+
+# Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:9.0
+WORKDIR /app
+COPY --from=build /app/out .
+ENTRYPOINT ["dotnet", "VWFS.Customers.Api.dll"]

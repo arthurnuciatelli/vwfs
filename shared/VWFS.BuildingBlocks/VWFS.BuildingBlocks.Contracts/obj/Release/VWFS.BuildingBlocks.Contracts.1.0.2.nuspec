@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>VWFS.BuildingBlocks.Contracts</id>
+    <version>1.0.2</version>
+    <authors>Arthur Nuciatelli</authors>
+    <description>VWFS Contracts Layer</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Contracts/bin/Release/net9.0/VWFS.BuildingBlocks.Contracts.dll" target="lib/net9.0/VWFS.BuildingBlocks.Contracts.dll" />
+  </files>
+</package>

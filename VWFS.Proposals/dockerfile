@@ -1,0 +1,23 @@
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+WORKDIR /src
+
+# Copiar apenas os csproj primeiro (para otimizar cache)
+COPY VWFS.Proposals.Api/*.csproj ./VWFS.Proposals.Api/
+COPY VWFS.Proposals.Domain/*.csproj ./VWFS.Proposals.Domain/
+COPY VWFS.Proposals.Infrastructure/*.csproj ./VWFS.Proposals.Infrastructure/
+COPY VWFS.Proposals.Application/*.csproj ./VWFS.Proposals.Application/
+
+RUN dotnet restore ./VWFS.Proposals.Api/VWFS.Proposals.Api.csproj
+
+# Copiar o resto do código
+COPY . .
+
+# Publicar
+RUN dotnet publish ./VWFS.Proposals.Api/VWFS.Proposals.Api.csproj -c Release -o /app/out
+
+# Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:9.0
+WORKDIR /app
+COPY --from=build /app/out .
+ENTRYPOINT ["dotnet", "VWFS.Proposals.Api.dll"]

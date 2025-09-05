@@ -1,0 +1,12 @@
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/bin/Debug/net9.0/VWFS.Proposals.Domain.deps.json
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/bin/Debug/net9.0/VWFS.Proposals.Domain.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/bin/Debug/net9.0/VWFS.Proposals.Domain.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/obj/Debug/net9.0/VWFS.Proposals.Domain.csproj.AssemblyReference.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/obj/Debug/net9.0/VWFS.Proposals.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/obj/Debug/net9.0/VWFS.Proposals.Domain.AssemblyInfoInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/obj/Debug/net9.0/VWFS.Proposals.Domain.AssemblyInfo.cs
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/obj/Debug/net9.0/VWFS.Proposals.Domain.csproj.CoreCompileInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/obj/Debug/net9.0/VWFS.Proposals.Domain.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/obj/Debug/net9.0/refint/VWFS.Proposals.Domain.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/obj/Debug/net9.0/VWFS.Proposals.Domain.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/obj/Debug/net9.0/ref/VWFS.Proposals.Domain.dll

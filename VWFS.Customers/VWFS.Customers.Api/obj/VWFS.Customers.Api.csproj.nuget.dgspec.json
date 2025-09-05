@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Api/VWFS.Customers.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Api/VWFS.Customers.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Api/VWFS.Customers.Api.csproj",
+        "projectName": "VWFS.Customers.Api",
+        "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Api/VWFS.Customers.Api.csproj",
+        "packagesPath": "/Users/arthurnuciatelli/.nuget/packages/",
+        "outputPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurnuciatelli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ptbcp/_packaging/ptbcp/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Application/VWFS.Customers.Application.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Application/VWFS.Customers.Application.csproj"
+              },
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Domain/VWFS.Customers.Domain.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Domain/VWFS.Customers.Domain.csproj"
+              },
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Infrastructure/VWFS.Customers.Infrastructure.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Infrastructure/VWFS.Customers.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "OpenTelemetry": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Application/VWFS.Customers.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Application/VWFS.Customers.Application.csproj",
+        "projectName": "VWFS.Customers.Application",
+        "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Application/VWFS.Customers.Application.csproj",
+        "packagesPath": "/Users/arthurnuciatelli/.nuget/packages/",
+        "outputPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurnuciatelli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ptbcp/_packaging/ptbcp/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Domain/VWFS.Customers.Domain.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Domain/VWFS.Customers.Domain.csproj"
+              },
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Infrastructure/VWFS.Customers.Infrastructure.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Infrastructure/VWFS.Customers.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "VWFS.BuildingBlocks.Application": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "VWFS.BuildingBlocks.Contracts": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Domain/VWFS.Customers.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Domain/VWFS.Customers.Domain.csproj",
+        "projectName": "VWFS.Customers.Domain",
+        "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Domain/VWFS.Customers.Domain.csproj",
+        "packagesPath": "/Users/arthurnuciatelli/.nuget/packages/",
+        "outputPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurnuciatelli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ptbcp/_packaging/ptbcp/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "VWFS.BuildingBlocks.Domain": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Infrastructure/VWFS.Customers.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Infrastructure/VWFS.Customers.Infrastructure.csproj",
+        "projectName": "VWFS.Customers.Infrastructure",
+        "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Infrastructure/VWFS.Customers.Infrastructure.csproj",
+        "packagesPath": "/Users/arthurnuciatelli/.nuget/packages/",
+        "outputPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arthurnuciatelli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ptbcp/_packaging/ptbcp/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Domain/VWFS.Customers.Domain.csproj": {
+                "projectPath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Customers/VWFS.Customers.Domain/VWFS.Customers.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "VWFS.BuildingBlocks.Infrastructure": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FBpjHN6gK94=",
+  "success": true,
+  "projectFilePath": "/Users/arthurnuciatelli/code/arthur/Volkswagen/VWFS.Proposals/VWFS.Proposals.Domain/VWFS.Proposals.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/arthurnuciatelli/.nuget/packages/vwfs.buildingblocks.contracts/1.0.0/vwfs.buildingblocks.contracts.1.0.0.nupkg.sha512",
+    "/Users/arthurnuciatelli/.nuget/packages/vwfs.buildingblocks.domain/1.0.0/vwfs.buildingblocks.domain.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

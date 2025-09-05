@@ -1,0 +1,11 @@
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/bin/Debug/net9.0/VWFS.BuildingBlocks.Domain.deps.json
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/bin/Debug/net9.0/VWFS.BuildingBlocks.Domain.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/bin/Debug/net9.0/VWFS.BuildingBlocks.Domain.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/obj/Debug/net9.0/VWFS.BuildingBlocks.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/obj/Debug/net9.0/VWFS.BuildingBlocks.Domain.AssemblyInfoInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/obj/Debug/net9.0/VWFS.BuildingBlocks.Domain.AssemblyInfo.cs
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/obj/Debug/net9.0/VWFS.BuildingBlocks.Domain.csproj.CoreCompileInputs.cache
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/obj/Debug/net9.0/VWFS.BuildingBlocks.Domain.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/obj/Debug/net9.0/refint/VWFS.BuildingBlocks.Domain.dll
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/obj/Debug/net9.0/VWFS.BuildingBlocks.Domain.pdb
+/Users/arthurnuciatelli/code/arthur/Volkswagen/shared/VWFS.BuildingBlocks/VWFS.BuildingBlocks.Domain/obj/Debug/net9.0/ref/VWFS.BuildingBlocks.Domain.dll

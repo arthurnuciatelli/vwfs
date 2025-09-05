@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'kafka'
+    static_configs:
+      - targets: ['kafka:9092']  # para métricas JMX do Kafka (se habilitadas)
+
+  - job_name: 'dotnet-services'
+    metrics_path: /metrics
+    scrape_interval: 5s
+    static_configs:
+      - targets: 
+          - 'customer-service:80'
+          - 'proposal-service:81'

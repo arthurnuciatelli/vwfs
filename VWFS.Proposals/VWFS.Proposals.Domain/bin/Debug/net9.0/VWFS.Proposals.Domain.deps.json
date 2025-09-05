@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "VWFS.Proposals.Domain/1.0.0": {
+        "dependencies": {
+          "VWFS.BuildingBlocks.Contracts": "1.0.0",
+          "VWFS.BuildingBlocks.Domain": "1.0.0"
+        },
+        "runtime": {
+          "VWFS.Proposals.Domain.dll": {}
+        }
+      },
+      "VWFS.BuildingBlocks.Contracts/1.0.0": {
+        "runtime": {
+          "lib/net9.0/VWFS.BuildingBlocks.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VWFS.BuildingBlocks.Domain/1.0.0": {
+        "runtime": {
+          "lib/net9.0/VWFS.BuildingBlocks.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VWFS.Proposals.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VWFS.BuildingBlocks.Contracts/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WL28m6NtUBMnudAL9nIOgTUhFS4ozI0QBuO2mz2ZQMUy0yAoqxpsxAEvTY78lEiWGoVUXhm9jO2qCOZOBfNQgQ==",
+      "path": "vwfs.buildingblocks.contracts/1.0.0",
+      "hashPath": "vwfs.buildingblocks.contracts.1.0.0.nupkg.sha512"
+    },
+    "VWFS.BuildingBlocks.Domain/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LMr7GojVDNUYKYlTtsgbONO9fK6vBqTLiNwzrJsF04WpBotBcvJ4QUkKGOU8NYgEwDfRrKqAp8TC1AQhqHY0Aw==",
+      "path": "vwfs.buildingblocks.domain/1.0.0",
+      "hashPath": "vwfs.buildingblocks.domain.1.0.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+version: '3.9'
+
+services:
+  # ----------------- Zookeeper -----------------
+  zookeeper:
+    image: bitnami/zookeeper:3.8
+    container_name: zookeeper
+    environment:
+      ALLOW_ANONYMOUS_LOGIN: "yes"
+    ports:
+      - "2181:2181"
+
+  # ----------------- Kafka -----------------
+  kafka:
+    image: bitnami/kafka:3.5
+    container_name: kafka
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_LISTENERS: PLAINTEXT://:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      ALLOW_PLAINTEXT_LISTENER: "yes"
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"  # auto-create habilitado
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+
+  # ----------------- MongoDB (Customer) -----------------
+  mongo:
+    image: mongo:6.0
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: vwfs_customer
+    volumes:
+      - mongo_data:/data/db
+
+  # ----------------- PostgreSQL (Proposal) -----------------
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: vwfs_proposals
+      POSTGRES_USER: vwfs
+      POSTGRES_PASSWORD: vwfs123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # ----------------- Customer Service -----------------
+  customer-service:
+    container_name: customer-service
+    build:
+      context: ./VWFS.Customers
+      dockerfile: dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - mongo
+      - kafka
+    environment:
+      ASPNETCORE_URLS: http://+:80
+      MONGO_CONNECTION: mongodb://mongo:27017
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      KAFKA_TOPIC: customer-created
+
+  # ----------------- Proposal Service -----------------
+  proposal-service:
+    container_name: proposal-service
+    build:
+      context: ./VWFS.Proposals
+      dockerfile: dockerfile
+    ports:
+      - "8081:80"
+    depends_on:
+      - postgres
+      - kafka
+    environment:
+      ASPNETCORE_URLS: http://+:80
+      POSTGRES_CONNECTION=Host: postgres;Port=5432;Database=vwfs_proposals;Username=vwfs;Password=vwfs123
+      KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      KAFKA_TOPIC: customer-created
+      KAFKA_GROUP_ID: proposal-service
+
+  # ----------------- Prometheus -----------------
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+
+  # ----------------- Grafana -----------------
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+
+  # ----------------- k6 (Teste de carga) -----------------
+  k6:
+    image: grafana/k6:latest
+    container_name: k6
+    volumes:
+      - ./k6:/k6
+    depends_on:
+      - customer-service
+      - proposal-service
+
+volumes:
+  mongo_data:
+  postgres_data:
+  zookeeper_data:
