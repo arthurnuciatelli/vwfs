@@ -36,12 +36,12 @@ Serilog (logging)
 VWFS.BuildingBlocks (biblioteca compartilhada via NuGet)
 
 VWFS/
-├─ VWFS.Customers/          # Serviço de clientes
-├─ VWFS.Proposals/          # Serviço de propostas
-├─ VWFS.Customers.Tests/    # Testes unitários do serviço de clientes
-├─ docker-compose.yml       # Orquestração de containers
-├─ prometheus/              # Configuração do Prometheus
-├─ grafana/                 # Configuração do Grafana
+├─ VWFS.Customers/ # Serviço de clientes
+├─ VWFS.Proposals/ # Serviço de propostas
+├─ VWFS.Customers.Tests/ # Testes unitários do serviço de clientes
+├─ docker-compose.yml # Orquestração de containers
+├─ prometheus/ # Configuração do Prometheus
+├─ grafana/ # Configuração do Grafana
 ├─ shared/VWFS.BuildingBlocks # Códigos compartilhados (publicados no NuGet)
 └─ README.md
 
