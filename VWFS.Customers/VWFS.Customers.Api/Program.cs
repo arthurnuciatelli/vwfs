@@ -1,12 +1,14 @@
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
-using VWFS.Customers.Domain.Interfaces;
 using VWFS.Customers.Infrastructure.Persistence;
 using VWFS.Customers.Infrastructure.Messaging;
 using MediatR;
 using VWFS.Customers.Application.Handlers;
 using Serilog;
 using Prometheus;
+using VWFS.Customers.Application.Interfaces;
+using FluentValidation.AspNetCore;
+using VWFS.Customers.Application.Interfaces.Messaging;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddEnvironmentVariables();
@@ -34,17 +36,15 @@ builder.Services.AddScoped(sp => sp.GetRequiredService<IMongoClient>().GetDataba
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
 // Kafka
-builder.Services.AddSingleton<KafkaProducer>(sp =>
-{
-    var bootstrapServers = builder.Configuration["KAFKA_BOOTSTRAP_SERVERS"];
-    var logger = sp.GetRequiredService<ILogger<KafkaProducer>>();
-    return new KafkaProducer(bootstrapServers, logger);
-});
+builder.Services.AddSingleton<IMessageProducer, KafkaProducer>();
 // MediatR
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(CreateCustomerCommandHandler).Assembly));
 
 // Controllers e Swagger
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddFluentValidation(fv => 
+    fv.RegisterValidatorsFromAssemblyContaining<Program>());
+    
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
