@@ -7,11 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.9" />
     <PackageReference Include="VWFS.BuildingBlocks.Infrastructure" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\VWFS.Customers.Domain\VWFS.Customers.Domain.csproj" />
+    <ProjectReference Include="..\VWFS.Customers.Application\VWFS.Customers.Application.csproj" />
   </ItemGroup>
 
 </Project>

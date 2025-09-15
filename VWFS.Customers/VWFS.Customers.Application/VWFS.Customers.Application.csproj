@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VWFS.Customers.Infrastructure\VWFS.Customers.Infrastructure.csproj" />
     <ProjectReference Include="..\VWFS.Customers.Domain\VWFS.Customers.Domain.csproj" />
   </ItemGroup>
 

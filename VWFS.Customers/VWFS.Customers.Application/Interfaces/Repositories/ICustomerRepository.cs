@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using VWFS.Customers.Domain.Entities;
 
-namespace VWFS.Customers.Domain.Interfaces
+namespace VWFS.Customers.Application.Interfaces
 {
     public interface ICustomerRepository
     {

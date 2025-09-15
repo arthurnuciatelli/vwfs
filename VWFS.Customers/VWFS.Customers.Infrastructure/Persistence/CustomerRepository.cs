@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using VWFS.Customers.Domain.Entities;
-using VWFS.Customers.Domain.Interfaces;
 using MongoDB.Driver;
+using VWFS.Customers.Application.Interfaces;
 
 namespace VWFS.Customers.Infrastructure.Persistence
 {
