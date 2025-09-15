@@ -7,6 +7,7 @@ namespace VWFS.Customers.Application.Commands
     public record CreateCustomerCommand(
         string Name,
         string Document,                 // CPF ou CNPJ
-        CustomerType Type
+        CustomerType Type,
+        DateTime BirthOrFoundationDate
     ) : IRequest<Guid>;
 }
